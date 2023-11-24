@@ -29,9 +29,9 @@
     </div>
 
            <?php
-        if(isset($_GET["ERROR"])){
+        if(isset($_GET["error"])){
             if($_GET["error"] == "emptyinput"){
-                echo "<p>Fill in all fields!</p>";
+                echo "<p>Fill in all the fields!</p>";
         }
         else if($_GET["error"] == "invaliduid"){
             echo "<p>choose a proper username!</p>";
@@ -42,7 +42,7 @@
             echo "<p>choose a proper email!</p>";
 
         }
-        else if($email_GET["error"] == "passwordsdontmatch"){
+        else if($_GET["error"] == "passwordsdontmatch"){
             echo "<p>passwords doesn't match!</p>";
 
         }
@@ -61,7 +61,7 @@
     }
         
         ?>
-        </section>
+    </section>
 
 
 <?php 

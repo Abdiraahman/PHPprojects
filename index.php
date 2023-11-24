@@ -19,7 +19,7 @@
         </section>
     </div><br><br><br><br><br>
     <footer>
-        To access the content:<a href="login.php">Login</a>
+        To access the content:<a class="link" href="login.php">Login</a>
     </footer>
 
         <?php 

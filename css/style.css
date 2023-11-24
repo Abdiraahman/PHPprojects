@@ -53,21 +53,21 @@ h1, p, h2 {
 footer{
     text-align:center;
     color: whitesmoke;
+    
+}
+.link:hover{text-decoration: underline;
+  color: lightblue;
+  font-weight: bolder;
 }
 span{
     color: blue;
     text-align: center;
     
   }
-  span:hover{
+span:hover{
     background-color: lightblue;
     text-decoration: underline;
   }
-
-
-
-
-
 
 .main-container {
     max-width: 900px;

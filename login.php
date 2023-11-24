@@ -26,9 +26,9 @@
         </div>
 
            <?php
-        if(isset($_GET["ERROR"])){
-            if($_GET["ERROR"] == "emptyinput"){
-                echo "<p>Fill in all fields!</p>";
+        if(isset($_GET["error"])){
+            if($_GET["error"] == "emptyinput"){
+                echo "<p>Fill in all the fields!</p>";
             }
             else if($_GET["error"] == "wronglogin"){
                 echo "<p>incorrect login information!</p>";
